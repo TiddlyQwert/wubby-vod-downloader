@@ -36,7 +36,7 @@ Automatically downloads and organizes VODs from https://archive.wubby.tv/vods/pu
 
 ## Configuration
 
-Create a `.env` file:
+Edit your `.env` file:
 
 ```bash
 # Download destination
@@ -69,5 +69,3 @@ D:\Media\TV\Wubby Vods\
 - Python 3.7+
 - Internet connection
 - Storage space for VODs
-
----
