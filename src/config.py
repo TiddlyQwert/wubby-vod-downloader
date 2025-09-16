@@ -11,7 +11,6 @@ class Config:
     def __init__(self):
         # Download settings
         self.download_path = Path(os.getenv('DOWNLOAD_PATH', './downloads')).resolve()
-        self.max_concurrent_downloads = int(os.getenv('MAX_CONCURRENT_DOWNLOADS', '3'))
         self.max_file_size_mb = int(os.getenv('MAX_FILE_SIZE_MB', '0'))
         
         # Scheduling
